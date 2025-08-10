@@ -881,7 +881,7 @@ def pharmacy_image_url_checker_tab():
 def main():
     # --- Add company logo to sidebar ---
     import os
-    logo_path = os.path.join(os.path.dirname(__file__), "seo-logo.png")
+    logo_path = os.path.join(os.path.dirname(__file__), "seo-logo.jpg")
     if os.path.exists(logo_path):
         st.sidebar.image(logo_path, width=180)
     st.sidebar.title("🌟 Инструменты SEO-комбайна")
